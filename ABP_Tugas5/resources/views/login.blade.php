@@ -24,8 +24,7 @@
         }
 
         .auth-header {
-            background-color: #7BBDE8;
-            /* Warna baru */
+            background-color: #e53935;
             color: white;
             padding: 35px 20px 25px;
             text-align: center;
@@ -39,7 +38,7 @@
 
         .auth-header p {
             margin: 5px 0 0;
-            opacity: 0.9;
+            opacity: 0.85;
             font-size: 0.95rem;
         }
 
@@ -55,8 +54,8 @@
         }
 
         .form-control:focus {
-            border-color: #7BBDE8;
-            box-shadow: 0 0 0 0.25rem rgba(123, 189, 232, 0.25);
+            border-color: #e53935;
+            box-shadow: 0 0 0 0.25rem rgba(229, 57, 53, 0.15);
             background-color: white;
         }
 
@@ -67,8 +66,7 @@
         }
 
         .btn-primary-custom {
-            background-color: #7BBDE8;
-            /* Warna baru */
+            background-color: #e53935;
             border: none;
             padding: 12px;
             border-radius: 8px;
@@ -80,21 +78,20 @@
         }
 
         .btn-primary-custom:hover {
-            background-color: #62A8D9;
-            /* Biru agak gelap saat hover */
+            background-color: #c62828;
             color: white;
             transform: translateY(-1px);
         }
 
         .link-custom {
-            color: #7BBDE8;
+            color: #e53935;
             text-decoration: none;
             font-weight: 600;
             transition: 0.2s;
         }
 
         .link-custom:hover {
-            color: #62A8D9;
+            color: #c62828;
             text-decoration: underline;
         }
     </style>
